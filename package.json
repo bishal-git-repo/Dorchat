@@ -1,0 +1,36 @@
+{
+  "name": "dorchat",
+  "version": "1.0.0",
+  "description": "\"Project Setup\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon app.js",
+    "prod": "cross-env NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishal-git-repo/Dorchat.git"
+  },
+  "author": "Bishal Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bishal-git-repo/Dorchat/issues"
+  },
+  "homepage": "https://github.com/bishal-git-repo/Dorchat#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
